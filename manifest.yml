@@ -90,8 +90,14 @@ dependencies:
       - cflinuxfs2
   - name: clang
     version: 3.7.0
-    uri: http://llvm.org/releases/3.7.0/clang+llvm-3.7.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
+    uri: http://releases.llvm.org/3.7.0/clang+llvm-3.7.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
     md5: 58c3662a9f34e49a57e9542bce550243
+    cf_stacks:
+      - cflinuxfs2
+  - name: clang
+    version: 4.0.0
+    uri: http://releases.llvm.org/4.0.0/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
+    md5: 6fb53a94111e11ade89da2a260b59e98
     cf_stacks:
       - cflinuxfs2
 
